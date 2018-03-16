@@ -1,0 +1,19 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <declare-styleable name="CustomSoundViewType">
+
+        <attr name="lineColor" format="color" />
+        <attr name="straightLineDistance" format="float" />
+        <attr name="allCount" format="integer" />
+        <attr name="lineSize" format="integer" />
+    </declare-styleable>
+</resources>
