@@ -69,6 +69,22 @@ public class CustomSoundView extends View {
         drawLines(canvas);
     }
 
+
+    //设置每一段的波纹的个数
+    public void setSize(int size1){
+        this.size = size1;
+    }
+
+    // 设置波纹的颜色
+    public void setColorPaint(int colorPaint1){
+        this.colorPaint = colorPaint1;
+    }
+
+    //设定公共的段数
+    public void setAllCount(int allCount){
+        this.allCount = allCount;
+    }
+
     public void setDistance(float distances) {
         this.distance = distances;
     }
